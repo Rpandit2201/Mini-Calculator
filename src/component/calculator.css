@@ -1,0 +1,58 @@
+.bg-color{
+    background: rgb(93,89,89);
+background: radial-gradient(circle, rgba(93,89,89,1) 0%, rgba(108,114,139,1) 36%, rgba(41,67,146,1) 100%, rgba(130,120,150,1) 100%, rgba(59,25,40,1) 100%, rgba(36,42,83,1) 100%, rgba(152,21,164,1) 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.cal-body{
+    border: 1px solid black;
+    margin: 0px 500px 10px 500px;
+    background-color:rgb(231, 227, 227);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.top-part{
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    height: 100px;
+}
+.top-part p{
+    margin: 10px;
+    line-height: 10px;
+}
+.btns{
+    text-align: center;    
+}
+.b{
+    margin:0px 30px 10px 10px ;
+    padding: 20px;
+    border-radius:50%;  
+    border: none;
+    background-color:black;
+    color: white;
+}
+.b:hover{
+    background-color: rgb(74, 159, 74);
+}
+.cancel{
+    margin:0px 30px 10px 10px ;
+    padding: 20px;
+    border-radius:50%;  
+    border: none;
+    background-color: black;  
+    color: red;
+}
+.cancel:hover{
+    color: white;
+    background-color: red;
+}
+.enter-text{
+    display: flex;
+    justify-content: right;
+    padding-top: 55px;
+    color: black;
+}
+.title{
+    color: black;
+    text-align: center;
+}
